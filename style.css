@@ -1,0 +1,433 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: lightblue;
+	font-family: "Raleway",sans-serif;
+    color: #2b2b2b;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    margin-bottom: 60px;
+}
+
+img {
+    margin: auto;
+    max-height: 350px;
+}
+
+table {
+    width: 100%;
+    margin: 0 20px;
+}
+
+td, th {
+    width: 25%;
+}
+
+ul {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Josefin Slab",serif;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+p {
+    /*font-size: 1.25em;*/
+    line-height: 1.5;
+    color: #000;
+    /*margin-bottom: 12px;*/
+    font-weight: 400;
+    text-align: justify;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+a:link {
+    color: #3ca1c3;
+}
+
+a:visited {
+    color: #c35e3c;
+}
+
+a:hover {
+    color: #e1ae9d;
+}
+
+a:active {
+    color: #808080;
+}
+
+/*color: #666666;*/
+/*color: #2b2b2b;*/
+/*color: #6a6a6a;*/
+/*color: #333333;*/
+
+/* Experience */
+h2.work {
+    font-size: 1.5em;
+    margin: 0;
+    /*display: inline;*/
+}
+
+h3.work {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 5px 0;
+    /*display: inline;*/
+}
+
+h4.work {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #6a6a6a;
+    margin: 7px 0 7px 0;
+    line-height: 1.2;
+}
+
+/* Skills */
+ul.skill {
+    list-style: none;
+    padding: 0;
+}
+
+h2.skill {
+    font-size: 1.5em;
+    margin: 0 0 8px 0;
+    text-align: right;
+}
+
+h3.skill {
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #666666;
+    margin: 0 0 5px 0;
+    text-align: right;
+}
+
+/* Education */
+h2.school {
+    font-size: 1.5em;
+    margin: 20px 0 0 0;
+}
+
+h3.school {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+h4.school {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #6a6a6a;
+    letter-spacing: 1.1px;
+    margin: 10px 0 20px 0;
+}
+
+.courses {
+    padding-left: 20px;
+}
+
+/* Projects */
+h2.project {
+    font-size: 1.5em;
+    margin: 5px 0 0 0;
+}
+
+h3.project {
+    font-weight: 600;
+    font-size: 1.25em;
+    margin: 5px 0;
+}
+
+h4.project {
+    font-weight: 600;
+    font-size: 1em;
+    color: #6a6a6a;
+    letter-spacing: 1.1px;
+    margin: 10px 0;
+}
+
+.resume {
+    border-color: lightblue;
+    border-radius: 0;
+    border-width: 3px;
+    font-size: 1.25em;
+    border-spacing: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a.resume {
+    color: #2b2b2b;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.brand,
+.address-bar {
+    display: none;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    width: 100%;
+}
+
+.carousel {
+    background-color: lightgray;
+}
+
+.caption {
+    margin: 0;
+}
+
+.carousel-indicators {
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+    border-color: #000;
+    width: 7px;
+    height: 7px;
+}
+
+.carousel-indicators .active {
+    width: 9px;
+    height: 9px;
+}
+
+.carousel-caption {
+    font-family: "Josefin Slab",serif;
+    font-weight: 600;
+    font-size: 14pt;
+    position: static;
+    left: 0;
+    padding: 5px;
+    margin: 0;
+    text-shadow: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none
+}
+
+/*.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}*/
+
+/*.brand-before {
+    margin: 15px 0;
+}*/
+
+/*.brand-name {
+    margin: 0;
+    font-size: 4em;
+}*/
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin: 30px 0;
+    /*margin: 30px -15px 30px -15px;*/
+    padding: 20px 30px;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 0;
+    background: #f5f5f5;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 71px;
+}
+
+footer p {
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Josefin Slab",serif;
+        /*letter-spacing: 3px;*/
+        font-size: 5em;
+        font-weight: 600;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .box {
+        font-size: 16px;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .img-full {
+        width: 80%;
+    }
+
+/*    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }*/
+
+    .navbar {
+        border-radius: 0;
+        min-height: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #f5f5f5;
+    }
+
+    .nav>li>a {
+        padding: 25px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: left;
+        margin: 0 auto;
+        table-layout: fixed;
+        /*font-size: 1.25em;*/
+    }
+
+    #nav-cont {
+        padding: 0;
+    }
+
+    #navbar {
+        padding-left: 0;
+    }
+
+    .carousel {
+        margin: 0 10%;
+    }
+
+    .carousel-caption {
+        font-size: 18pt;
+        padding: 15px;
+    }
+
+    .carousel-indicators {
+        padding: 15px;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+
+    .carousel-indicators .active {
+        width: 12px;
+        height: 12px;
+    }
+
+    .courses {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
